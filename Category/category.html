@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Category</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    
+    <!-- Range slider-->
+    <link rel="stylesheet" href="vendor/nouislider/nouislider.min.css">
+    <!-- Choices CSS-->
+    <link rel="stylesheet" href="vendor/choices.js/public/assets/styles/choices.min.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="">
+    <script src="https://kit.fontawesome.com/01bc730358.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="page-holder">
+      
+     
+      
+      <div class="container">
+        <!-- HERO SECTION-->
+        <section class="py-5 bg-light">
+          <div class="container">
+            <div class="row px-4 px-lg-5 py-lg-4 align-items-center">
+              <div class="col-lg-6">
+                <h1 class="h2 text-uppercase mb-0">Category item name</h1>
+              </div>
+              
+            </div>
+          </div>
+        </section>
+        <section class="py-5">
+          <div class="container p-0">
+            <div class="row">
+              <!-- SHOP SIDEBAR-->
+              <div class="col-lg-3 col-md-3 col-sm-3 order-2 order-lg-1">
+                <h5 class="text-uppercase mb-4">Categories</h5>
+                <div class="py-2 px-4 bg-dark text-white mb-3"><strong class="small text-uppercase fw-bold">Fashion &amp; Acc</strong></div>
+                <ul class="list-unstyled small text-muted ps-lg-4 font-weight-normal">
+                  <li class="mb-2"><a class="reset-anchor" href="#!">Women's T-Shirts</a></li>
+                  <li class="mb-2"><a class="reset-anchor" href="#!">Men's T-Shirts</a></li>
+                  <li class="mb-2"><a class="reset-anchor" href="#!">Dresses</a></li>
+                  <li class="mb-2"><a class="reset-anchor" href="#!">Novelty socks</a></li>
+                  <li class="mb-2"><a class="reset-anchor" href="#!">Women's sunglasses</a></li>
+                  <li class="mb-2"><a class="reset-anchor" href="#!">Men's sunglasses</a></li>
+                </ul>
+                <div class="py-2 px-4 bg-light mb-3"><strong class="small text-uppercase fw-bold">Electronics</strong></div>
+                <ul class="list-unstyled small text-muted ps-lg-4 font-weight-normal mb-5">
+                  <li class="mb-2"><a class="reset-anchor" href="#!">Electronics</a></li>
+                  <li class="mb-2"><a class="reset-anchor" href="#!">USB Flash drives</a></li>
+                  <li class="mb-2"><a class="reset-anchor" href="#!">Headphones</a></li>
+                  <li class="mb-2"><a class="reset-anchor" href="#!">Portable speakers</a></li>
+                  <li class="mb-2"><a class="reset-anchor" href="#!">Cell Phone bluetooth headsets</a></li>
+                  <li class="mb-2"><a class="reset-anchor" href="#!">Keyboards</a></li>
+                </ul>
+                <h6 class="text-uppercase mb-4">Price range</h6>
+                <div class="price-range pt-4 mb-5">
+                  <div id="range"></div>
+                  <div class="row pt-2">
+                    <div class="col-6"><strong class="small fw-bold text-uppercase">From</strong></div>
+                    <div class="col-6 text-end"><strong class="small fw-bold text-uppercase">To</strong></div>
+                  </div>
+                </div>
+                
+              </div>
+              <!-- SHOP LISTING-->
+              <div class="col-lg-9 col-md-9 col-sm-3 order-1 order-lg-2 mb-5 mb-lg-0">
+                <div class="row mb-3 align-items-center">
+                  <div class="col-lg-12">
+                    <ul class="list-inline d-flex align-items-center justify-content-lg-end mb-0">
+
+                      <li class="list-inline-item">
+                        <select class="selectpicker" data-customclass="form-control form-control-sm">
+                          <option value>Sort By </option>
+                          <option value="default">Default sorting </option>
+                          <option value="popularity">Popularity </option>
+                          <option value="low-high">Price: Low to High </option>
+                          <option value="high-low">Price: High to Low </option>
+                        </select>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="row">
+                  <!-- PRODUCT-->
+                  <div class="col-lg-4 col-sm-4">
+                    <div class="single-product">
+                        <div class="product-img">
+                            <a href="product-details.html">
+                                <img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
+                                <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
+                            </a>
+                            <div class="button-head">
+                                <div class="product-action">
+                                    
+                                    <a title="Wishlist" href="#"><i class="fa-regular fa-heart"></i><span>Add to Wishlist</span></a>
+                                    
+                                </div>
+                                <div class="product-action-2">
+                                    <a title="Add to cart" href="#">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h3><a href="product-details.html">Women Hot Collection</a></h3>
+                            <div class="product-price">
+                                <span class="price">$29.00</span>
+                            </div>
+                        </div>
+                    </div> 
+                  </div>
+                  <!-- PRODUCT-->
+                  
+                
+                </div>
+                
+                
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+        <!-- JavaScript files-->
+
+        <script src="vendor/nouislider/nouislider.min.js"></script>
+        <script src="vendor/choices.js/public/assets/scripts/choices.min.js"></script>
+        <script src="js/front.js"></script>
+      <!-- Nouislider Config-->
+      <script>
+        var range = document.getElementById('range');
+        noUiSlider.create(range, {
+            range: {
+                'min': 0,
+                'max': 2000
+            },
+            step: 5,
+            start: [0, 500],
+            margin: 300,
+            connect: true,
+            direction: 'ltr',
+            orientation: 'horizontal',
+            behaviour: 'tap-drag',
+            tooltips: true,
+            format: {
+              to: function ( value ) {
+                return '$' + value;
+              },
+              from: function ( value ) {
+                return value.replace('', '');
+              }
+            }
+        });
+        
+      </script>
+      
+      
+    </div>
+  </body>
+</html>

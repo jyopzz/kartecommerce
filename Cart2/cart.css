@@ -1,0 +1,123 @@
+.container{
+    padding: 80px;
+}
+
+.maincontent{
+    width: 100%;
+}
+.mainhead{
+    background-color: rgb(255, 0, 0);
+    color: rgb(245, 245, 245);
+    height: 50px;
+}
+.product{
+    padding-left: 20px;
+}
+.mainbody{
+    
+    margin-top: 10px;
+}
+td{
+    padding-top: 10px;
+}
+#ultag li{
+    list-style: none;
+    font-weight: 500;
+    padding-top: 1px;
+}
+.right{
+    padding-top: 20px;
+}
+.right li span {
+    
+    float: right;
+}
+.amount{
+    padding-top: 40px;
+}
+.productname{
+    font-weight: 500;
+    
+}
+.productname a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+.productname a:hover{
+    color: red;
+}
+.deleteicon a {
+    color: black;
+}
+.deleteicon a:hover{
+    color: red;
+}
+.price{
+    color: red;
+}
+.productdesc{
+    color:#666;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.selects select{
+    border-radius: 12px;
+    color: black;
+    background: #ffffff;
+    border-color: black;
+}
+
+.amount input {
+    height: 50px;
+    max-width: 91%;
+    width: 30%;
+    box-shadow: 0px 0px 5px rgb(255, 1, 1);
+    border: none;
+    display: inline-block;
+    color: black;
+    padding: 0px 20px;
+}
+.amount button {
+    height: 50px;
+    max-width: 91%;
+    
+    box-shadow: 0px 0px 5px rgb(255, 1, 1);
+    border: none;
+    display: inline-block;
+    color: black;
+    padding: 0px 20px;
+
+}
+.amount button:hover {
+    color: rgb(255, 255, 255);
+    background-color: red;
+
+}
+.purchasing .btn{
+    text-align: center;
+    border-radius: 0;
+    width: 100%;
+    margin-top: 10px;
+    height: 46px;
+    line-height: 18px;
+    font-size: 13px;
+    color: #ffffff;
+    background: #000000;
+    padding-top: 13px;
+
+}
+.btn{
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    
+   
+    
+    border-radius: 0px;
+    text-transform: uppercase;
+}
+.purchasing a:hover{
+    color: #f1f1f1;
+    background-color: #ff0000;
+}

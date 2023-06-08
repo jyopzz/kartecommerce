@@ -1,0 +1,46 @@
+.section {
+	padding: 100px 0;
+	position: relative;
+}
+.section-title {
+	text-align: center;
+	margin-bottom: 50px;
+	padding: 0 215px;
+}
+.section-title h2 {
+	font-size: 30px;
+	margin-bottom: 0;
+	text-transform: capitalize;
+	position: relative;
+	color: #2c2d3f;
+	font-weight: 700;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+}
+.section-title h2::before {
+	position: absolute;
+	content: "";
+	height: 2px;
+	width: 50px;
+	background: #e90808;
+	left: 50%;
+	bottom: 0;
+	margin-left: -25px;
+}
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+a {
+	color: inherit;
+}
+a:visited {
+	color: inherit;
+}
+a:hover, a:focus, a:active {
+	color: inherit;
+}
+a:hover, a:active {
+	outline: 0;
+}
+
+
